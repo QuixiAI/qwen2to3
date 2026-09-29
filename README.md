@@ -2,7 +2,7 @@
 
 Created by Eric Hartford
 
-**Model ID:** `CognitiveComputations/Qwen3-72B-Instruct`
+**Model ID:** `QuixiAI/Qwen3-72B-Synthesis`
 **Model Type:** Causal Language Model
 **Architecture:** Qwen3
 
@@ -58,7 +58,7 @@ To use this model, you need the `transformers` library. Ensure you have `trust_r
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-model_id = "CognitiveComputations/Qwen3-72B-Instruct"
+model_id = "QuixiAI/Qwen3-72B-Synthesis"
 dtype = torch.bfloat16
 
 # Load the tokenizer
